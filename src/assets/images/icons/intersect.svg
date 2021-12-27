@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="16px" viewBox="0 0 17 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>intersect</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="bevel">
+        <g id="intersect" transform="translate(1.500000, 1.000000)">
+            <rect id="Rectangle" stroke="#C1C2C2" fill="#F2F2F2" x="5" y="0" width="9" height="9"></rect>
+            <rect id="Rectangle" stroke="#C1C2C2" fill="#F2F2F2" x="0" y="5" width="9" height="9"></rect>
+            <path d="M9,5 L9,9 L5,9 L5,5 L9,5 Z" id="Combined-Shape" stroke="#38AC92" fill="#43D7B7"></path>
+        </g>
+    </g>
+</svg>

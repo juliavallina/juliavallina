@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="13px" viewBox="0 0 12 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>reflect_vertical</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="bevel">
+        <g id="reflect_vertical" transform="translate(6.000000, 6.500000) rotate(90.000000) translate(-6.000000, -6.500000) translate(1.000000, 1.000000)" stroke="#797979">
+            <path d="M3.99172746,10.2648593 C2.67709839,10.2925685 1.31462907,10.2371501 0,10.2648593 C1.42928575,7.01711837 2.63164487,4.07911415 3.99172746,0.772858277 C4.02038439,3.90914942 3.96307052,7.12856818 3.99172746,10.2648593 Z" id="Path" fill="#F2F2F2"></path>
+            <path d="M9.96016078,10.2648593 C8.64553171,10.2925685 7.28306239,10.2371501 5.96843332,10.2648593 C7.39771908,7.01711837 8.60007819,4.07911415 9.96016078,0.772858277 C9.98881772,3.90914942 9.93150384,7.12856818 9.96016078,10.2648593 Z" id="Path" fill="#D8D8D8" transform="translate(7.968433, 5.522858) scale(-1, 1) translate(-7.968433, -5.522858) "></path>
+        </g>
+    </g>
+</svg>

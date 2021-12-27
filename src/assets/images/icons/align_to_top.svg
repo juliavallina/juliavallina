@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="12px" viewBox="0 0 13 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>align_to_top</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="align_to_top" stroke="#7D7D7D">
+            <line x1="0.5" y1="0.5" x2="12.5" y2="0.5" id="Line" stroke-linecap="square"></line>
+            <rect id="Rectangle" fill="#CECFCE" stroke-linejoin="bevel" x="4.5" y="2.5" width="4" height="9"></rect>
+        </g>
+    </g>
+</svg>

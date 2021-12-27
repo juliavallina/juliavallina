@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>make_grid</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="bevel">
+        <g id="make_grid" transform="translate(1.000000, 1.000000)" fill="#30C5FF" stroke="#289DCC">
+            <rect id="Rectangle" x="0" y="0" width="5" height="5"></rect>
+            <rect id="Rectangle-Copy-11" x="7" y="0" width="5" height="5"></rect>
+            <rect id="Rectangle-Copy-12" x="7" y="7" width="5" height="5"></rect>
+            <rect id="Rectangle-Copy-13" x="0" y="7" width="5" height="5"></rect>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<meta charset="utf-8">
+<title>{{ title or site.title or site.name }}</title>
+<meta name="description" content="{{ description or site.description }}">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+{# Open graph related #}
+<meta property="og:title" content="{{ title or site.title }}" />
+<meta property="og:type" content="{{ type or site.type }}" />
+<meta property="og:url" content="{{ url or site.url }}" />
+<meta property="og:image" content="{{ image or site.image }}" />
+<meta property="og:site_name" content="{{ name or site.name }}" />
+<meta property="og:description" content="{{ description or site.description }}" />
+
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦄</text></svg>">
+
+
+{% include "webpack.njk" %}

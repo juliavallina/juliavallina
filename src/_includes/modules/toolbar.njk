@@ -1,0 +1,193 @@
+<section class="toolbar" translate="no">
+  <ul class="window-actions">
+    <button class="window-actions__btn window-actions__btn--close" aria-label="Simulate close"></button>
+    <button class="window-actions__btn window-actions__btn--minimize" aria-label="Simulate minimize"></button>
+    <button class="window-actions__btn window-actions__btn--expand" aria-label="Simulate expand"></button>
+  </ul>
+  <h1 class="toolbar__title">{{ title }}.sketch</h1>
+  <div class="toolbar__alert alert" role="alert">
+    <input type="checkbox" id="notifications">
+    <label class="alert__content" for="notifications">
+      2 Notifications
+      <ul class="alert__info">
+        <li><button class="alert__info-item">Plugin update available</button></li>
+        <li><button class="alert__info-item">Shared library update available</button></li>
+      </ul>
+    </label>
+  </div>
+
+  <div class="toolbar__row">
+    <div>
+      <div class="toolbar-btn__group">
+        <button class="toolbar-btn toolbar-btn--down">
+          <svg width="10" height="10"><use xlink:href="#icon-plus"></use></svg>
+        </button>
+        <label class="toolbar-btn__label">Insert</label>
+      </div>
+      <div class="toolbar-btn__group">
+        <button class="toolbar-btn toolbar-btn--down">
+          <svg width="13" height="12"><use xlink:href="#icon-data"></use></svg>
+        </button>
+        <label class="toolbar-btn__label">Data</label>
+      </div>
+    </div>
+
+    <div>
+      <div class="toolbar-btn__group">
+        <button class="toolbar-btn" disabled>
+          <svg width="13" height="12"><use xlink:href="#icon-create_symbol"></use></svg>
+        </button>
+        <label class="toolbar-btn__label">Create symbol</label>
+      </div>
+    </div>
+
+    <div>
+      <div class="toolbar-btn__group toolbar-btn__group--no-margin">
+        <button class="toolbar-btn toolbar-btn--left toolbar-btn--wide" disabled>
+          <svg width="15" height="14"><use xlink:href="#icon-forward"></use></svg>
+        </button>
+        <label class="toolbar-btn__label">Forward</label>
+      </div>
+      <div class="toolbar-btn__group">
+        <button class="toolbar-btn toolbar-btn--right toolbar-btn--wide" disabled>
+          <svg width="15" height="15"><use xlink:href="#icon-backward"></use></svg>
+        </button>
+        <label class="toolbar-btn__label">Backward</label>
+      </div>
+    </div>
+
+    <div>
+      <div class="toolbar-btn__group toolbar-btn__group--no-margin">
+        <button class="toolbar-btn toolbar-btn--left toolbar-btn--wide" disabled>
+          <svg width="17" height="17"><use xlink:href="#icon-group"></use></svg>
+        </button>
+        <label class="toolbar-btn__label">Group</label>
+      </div>
+      <div class="toolbar-btn__group">
+        <button class="toolbar-btn toolbar-btn--right toolbar-btn--wide" disabled>
+          <svg width="15" height="15"><use xlink:href="#icon-ungroup"></use></svg>
+        </button>
+        <label class="toolbar-btn__label">Ungroup</label>
+      </div>
+    </div>
+
+    {# <span class="space" aria-hidden="true"></span> #}
+    <div>
+      <div class="toolbar-btn__group">
+        <button class="toolbar-btn" disabled>
+          <svg width="14" height="14"><use xlink:href="#icon-edit"></use></svg>
+        </button>
+        <label class="toolbar-btn__label">Edit</label>
+      </div>
+      <div class="toolbar-btn__group">
+        <button class="toolbar-btn" >
+          <svg width="14" height="14"><use xlink:href="#icon-rotate"></use></svg>
+        </button>
+        <label class="toolbar-btn__label">Rotate</label>
+      </div>
+      <div class="toolbar-btn__group">
+        <button class="toolbar-btn" >
+          <svg width="19" height="16"><use xlink:href="#icon-mask"></use></svg>
+        </button>
+        <label class="toolbar-btn__label">Mask</label>
+      </div>
+      <div class="toolbar-btn__group">
+        <button class="toolbar-btn" >
+          <svg width="16" height="16"><use xlink:href="#icon-scale"></use></svg>
+        </button>
+        <label class="toolbar-btn__label">Scale</label>
+      </div>
+      <div class="toolbar-btn__group">
+        <button class="toolbar-btn" >
+          <svg width="16" height="16"><use xlink:href="#icon-flatten"></use></svg>
+        </button>
+        <label class="toolbar-btn__label">Flatten</label>
+      </div>
+    </div>
+
+    {# <span class="space" aria-hidden="true"></span> #}
+    <div>
+      <div class="toolbar-btn__group toolbar-btn__group--no-margin">
+        <button class="toolbar-btn toolbar-btn--left toolbar-btn--wide" disabled>
+          <svg width="15" height="15"><use xlink:href="#icon-union"></use></svg>
+        </button>
+        <label class="toolbar-btn__label">Union</label>
+      </div>
+      <div class="toolbar-btn__group toolbar-btn__group--no-margin">
+        <button class="toolbar-btn toolbar-btn--center toolbar-btn--wide" disabled>
+          <svg width="15" height="15"><use xlink:href="#icon-substract"></use></svg>
+        </button>
+        <label class="toolbar-btn__label">Substract</label>
+      </div>
+      <div class="toolbar-btn__group toolbar-btn__group--no-margin">
+        <button class="toolbar-btn toolbar-btn--center toolbar-btn--wide" disabled>
+          <svg width="15" height="15"><use xlink:href="#icon-intersect"></use></svg>
+        </button>
+        <label class="toolbar-btn__label">Intersect</label>
+      </div>
+      <div class="toolbar-btn__group">
+        <button class="toolbar-btn toolbar-btn--right toolbar-btn--wide" disabled>
+          <svg width="15" height="15"><use xlink:href="#icon-difference"></use></svg>
+        </button>
+        <label class="toolbar-btn__label">Difference</label>
+      </div>
+    </div>
+
+    {# <span class="space" aria-hidden="true"></span> #}
+    <div>
+      <div class="toolbar-btn__group">
+        <button class="toolbar-btn" disabled>
+          <svg width="13" height="12"><use xlink:href="#icon-make_grid"></use></svg>
+        </button>
+        <label class="toolbar-btn__label">Make Grid</label>
+      </div>
+    </div>
+
+    {# <span class="space" aria-hidden="true"></span> #}
+    <div>
+      <div class="toolbar-btn__group">
+        <div class="toolbar-btn toolbar-btn--huge">
+          <button class="toolbar-btn-zoom"><svg width="7" height="1"><use xlink:href="#icon-minus"></use></svg></button>
+          <span>100%</span>
+          <button class="toolbar-btn-zoom"><svg width="7" height="7"><use xlink:href="#icon-plus"></use></svg></button>
+        </div>
+        <label class="toolbar-btn__label">Zoom</label>
+      </div>
+      <div class="toolbar-btn__group">
+        <button class="toolbar-btn toolbar-btn--down">
+          <svg width="15" height="14"><use xlink:href="#icon-view"></use></svg>
+        </button>
+        <label class="toolbar-btn__label">View</label>
+      </div>
+    </div>
+
+    {# <span class="space" aria-hidden="true"></span> #}
+
+    <div>
+      <div class="toolbar-btn__group">
+        <button class="toolbar-btn" disabled>
+          <svg width="17" height="13"><use xlink:href="#icon-show_grid"></use></svg>
+        </button>
+        <label class="toolbar-btn__label">Show Grid</label>
+      </div>
+
+      <div class="toolbar-btn__group">
+        <button class="toolbar-btn" disabled>
+          <svg width="17" height="13"><use xlink:href="#icon-show_layout"></use></svg>
+        </button>
+        <label class="toolbar-btn__label">Show Layout</label>
+      </div>
+    </div>
+
+    {# <span class="space" aria-hidden="true"></span> #}
+    <div>
+      <div class="toolbar-btn__group">
+        <button class="toolbar-btn" disabled>
+          <svg width="12" height="13"><use xlink:href="#icon-export"></use></svg>
+        </button>
+        <label class="toolbar-btn__label">Export</label>
+      </div>
+    </div>
+
+  </div>
+</section>

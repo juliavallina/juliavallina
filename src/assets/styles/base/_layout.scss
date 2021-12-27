@@ -1,0 +1,9 @@
+.layout {
+  display: flex;
+  height: calc(100% - #{$toolbar});
+  margin-top: 1px; // for toolbar shadow
+}
+
+.row {
+  display: flex;
+}

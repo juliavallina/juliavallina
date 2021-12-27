@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Edit</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Edit" transform="translate(1.000000, 1.000000)">
+            <circle id="Oval" stroke="#C1C1C1" fill="#F2F2F2" cx="7" cy="7" r="7"></circle>
+            <path d="M11.9913298,1.99277923 L12,2 C13.2102131,3.25827103 14,5.11631946 14,7 C14,10.8659932 10.8659932,14 7,14 C5.06347968,14 3.31062378,13.2136392 2.04332981,11.9428151 L11.9913298,1.99277923 Z" id="Combined-Shape" stroke="#66AC22" fill="#6DD400"></path>
+            <circle id="Oval" stroke="#868786" fill="#E1E1E1" stroke-linejoin="bevel" cx="2" cy="12" r="1"></circle>
+            <circle id="Oval-Copy" stroke="#868786" fill="#E1E1E1" stroke-linejoin="bevel" cx="7" cy="7" r="1"></circle>
+            <circle id="Oval-Copy-2" stroke="#868786" fill="#E1E1E1" stroke-linejoin="bevel" cx="12" cy="2" r="1"></circle>
+        </g>
+    </g>
+</svg>

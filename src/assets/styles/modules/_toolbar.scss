@@ -1,0 +1,40 @@
+.toolbar {
+  position: relative;
+  height: $toolbar;
+  margin-top: 1px; // for top shadow
+  padding: 4px 5px;
+  background-image: $linear-gradient;
+  border-bottom: solid 1px #BDBDBD;
+  box-shadow: 0 1px 0 0 #A8A7A6, 0 -1px 0 0 #F5F5F5;
+  border-radius: 4px 4px 0 0;
+  text-align: center;
+  z-index: $z-toolbar;
+  user-select: none;
+
+  &__title {
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+
+  &__alert {
+    position: absolute;
+    right: 2px;
+    top: 1px;
+  }
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+
+    > div {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  svg {
+    display: block;
+  }
+}

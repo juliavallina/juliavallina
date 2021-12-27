@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="16px" viewBox="0 0 12 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>export</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="export" transform="translate(1.000000, 1.000000)">
+            <polygon id="Rectangle" stroke="#7A7A7A" stroke-linejoin="bevel" points="0 5 3.00129432 5 7.01946095 5 10 5 10 14 0 14"></polygon>
+            <line x1="3.5" y1="5" x2="6.5" y2="5" id="Line-5" stroke="#F6F6F6" stroke-width="1.2" stroke-linecap="square"></line>
+            <g id="arrow" transform="translate(2.500000, 0.000000)" stroke="#7B7B7B">
+                <polyline id="Line-3" points="2.5 9.5 2.5 3.59068718 2.5 1.13686838e-13"></polyline>
+                <polyline id="Line-4" stroke-linecap="square" points="0 2.5 2.5 0 3 0.5 5 2.5"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

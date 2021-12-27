@@ -1,0 +1,77 @@
+
+.window-actions {
+  $el: &;
+  position: absolute;
+  left: 5px;
+  top: 3px;
+  display: flex;
+
+  &__btn {
+    position: relative;
+    height: 12px;
+    width: 12px;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 0.5px;
+    border-radius: 50%;
+
+    &--close {
+      background-color: #E24B42;
+      border-color: #E4574F;
+
+      &::before {
+        content: '';
+        width: 4px;
+        height: 4px;
+        background-color: #4D0000;
+        border-radius: 50%;
+      }
+    }
+
+    &--minimize {
+      background-color: #FFBD2D;
+      border-color: #E1A329;
+
+      &::before {
+        content: '';
+        width: 8px;
+        height: 1px;
+        background-color: #995700;
+        opacity: 0;
+      }
+    }
+
+    &--expand {
+      background-color: #28C93F;
+      border-color: #2CAD30;
+
+      &::before {
+        content: '';
+        width: 6px;
+        height: 6px;
+        background-color: #016400;
+        opacity: 0;
+      }
+
+      &::after {
+        content: '';
+        position: absolute;
+        width: 1.5px;
+        height: 8px;
+        background-color: #28C93F;
+        transform: rotate(-45deg);
+      }
+    }
+  }
+
+  &:hover {
+    #{$el}__btn {
+      &::before,
+      &::after {
+        opacity: 1;
+      }
+    }
+  }
+}

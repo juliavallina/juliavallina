@@ -1,0 +1,13 @@
+---
+layout: default
+---
+{% include "modules/toolbar.njk" %}
+<div class="layout">
+  {% include "modules/sidebar.njk" %}
+  <main role="main" class="content" data-scrollable>
+    <div class="content__inner">
+      {{ content | safe }}
+    </div>
+  </main>
+  {% include "modules/inspector.njk" %}
+</div>

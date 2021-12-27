@@ -1,0 +1,29 @@
+.content {
+  position: relative;
+  padding: 24px 32px;
+  flex: 1 1 auto;
+  overflow: auto;
+  scroll-behavior: smooth;
+
+  &__inner {
+    max-width: 700px;
+  }
+
+  p {
+    margin: 1em 0;
+  }
+
+  ul {
+    margin-left: 2rem;
+  }
+
+  li {
+    margin: 0.5em 0;
+    list-style: disc;
+  }
+
+  *::selection {
+    background-color: #333;
+    color: white;
+  }
+}

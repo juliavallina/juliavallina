@@ -1,0 +1,43 @@
+$bg-body: white;
+$linear-gradient: linear-gradient(to bottom, #E5E5E5 0%, #CCCCCC 100%);
+$c-text: #555455;
+
+$toolbar: 75px;
+$z-alert: 1;
+$z-toolbar: 1;
+$z-sidebar: 1;
+
+@import 'base/reset';
+@import 'base/mixins';
+@import 'base/layout';
+
+@import 'elements/input_search';
+@import 'elements/space';
+@import 'elements/toolbar_btn';
+@import 'elements/toolbar_btn_zoom';
+
+@import 'blocks/alert';
+@import 'blocks/window_actions';
+
+@import 'modules/inspector';
+@import 'modules/sidebar';
+@import 'modules/toolbar';
+
+@import 'modules/content';
+
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  color: $c-text;
+}
+
+body {
+  background-color: $bg-body;
+}
+
+img {
+  width: 15vw;
+  max-width: 6.25rem;
+}
