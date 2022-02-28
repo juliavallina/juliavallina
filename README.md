@@ -2,7 +2,7 @@
 
 I'm a problem solver specialized in front-end development.
 
-- 🔭 I’m currently working at @the-cocktail
+- 🔭 I’m currently working at @solublestudio
 - 👯 I’m looking to collaborate on JamStack projects and design systems
 - 💬 Ask me about Eurovision Song Contest
 - 😄 Pronouns: she/her
